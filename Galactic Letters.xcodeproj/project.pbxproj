@@ -26,6 +26,7 @@
 		BDA2EB66201C324800BAB64C /* StatTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA2EB65201C324800BAB64C /* StatTracker.m */; };
 		BDA2EB74201C361B00BAB64C /* Cloud.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA2EB73201C35E300BAB64C /* Cloud.m */; };
 		BDA2EB75201C3B5A00BAB64C /* stars.sks in Resources */ = {isa = PBXBuildFile; fileRef = BDA2EB5F201C31FD00BAB64C /* stars.sks */; };
+		BDEFB7B1201CAF9E00E27E69 /* SKPhysicsBody+NodeName.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEFB7B0201CAF9E00E27E69 /* SKPhysicsBody+NodeName.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +95,8 @@
 		BDA2EB71201C352700BAB64C /* ContactBitMasks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactBitMasks.h; sourceTree = "<group>"; };
 		BDA2EB72201C35E300BAB64C /* Cloud.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cloud.h; sourceTree = "<group>"; };
 		BDA2EB73201C35E300BAB64C /* Cloud.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cloud.m; sourceTree = "<group>"; };
+		BDEFB7AF201CAF9E00E27E69 /* SKPhysicsBody+NodeName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SKPhysicsBody+NodeName.h"; sourceTree = "<group>"; };
+		BDEFB7B0201CAF9E00E27E69 /* SKPhysicsBody+NodeName.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SKPhysicsBody+NodeName.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +200,8 @@
 			isa = PBXGroup;
 			children = (
 				BDA2EB71201C352700BAB64C /* ContactBitMasks.h */,
+				BDEFB7AF201CAF9E00E27E69 /* SKPhysicsBody+NodeName.h */,
+				BDEFB7B0201CAF9E00E27E69 /* SKPhysicsBody+NodeName.m */,
 				BDA2EB50201C30ED00BAB64C /* TargetWordArray.h */,
 				BDA2EB4F201C30EC00BAB64C /* TargetWordArray.m */,
 				BDA2EB51201C30ED00BAB64C /* WordManager.h */,
@@ -439,6 +444,7 @@
 			files = (
 				BDA2EB54201C30ED00BAB64C /* TargetWordArray.m in Sources */,
 				BDA2EB0D201C2AFC00BAB64C /* GameScene.m in Sources */,
+				BDEFB7B1201CAF9E00E27E69 /* SKPhysicsBody+NodeName.m in Sources */,
 				BDA2EB10201C2AFC00BAB64C /* GameViewController.m in Sources */,
 				BDA2EB74201C361B00BAB64C /* Cloud.m in Sources */,
 				BDA2EB3F201C2BD500BAB64C /* RandomPointGenerator.m in Sources */,
