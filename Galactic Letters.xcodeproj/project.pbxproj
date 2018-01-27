@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDA2EB06201C2AFC00BAB64C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA2EB05201C2AFC00BAB64C /* AppDelegate.m */; };
+		BDA2EB08201C2AFC00BAB64C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BDA2EB07201C2AFC00BAB64C /* GameScene.sks */; };
+		BDA2EB0A201C2AFC00BAB64C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = BDA2EB09201C2AFC00BAB64C /* Actions.sks */; };
+		BDA2EB0D201C2AFC00BAB64C /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA2EB0C201C2AFC00BAB64C /* GameScene.m */; };
+		BDA2EB10201C2AFC00BAB64C /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA2EB0F201C2AFC00BAB64C /* GameViewController.m */; };
+		BDA2EB13201C2AFC00BAB64C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA2EB11201C2AFC00BAB64C /* Main.storyboard */; };
+		BDA2EB15201C2AFC00BAB64C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA2EB14201C2AFC00BAB64C /* Assets.xcassets */; };
+		BDA2EB18201C2AFC00BAB64C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA2EB16201C2AFC00BAB64C /* LaunchScreen.storyboard */; };
+		BDA2EB1B201C2AFC00BAB64C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA2EB1A201C2AFC00BAB64C /* main.m */; };
+		BDA2EB25201C2AFC00BAB64C /* Galactic_LettersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA2EB24201C2AFC00BAB64C /* Galactic_LettersTests.m */; };
+		BDA2EB30201C2AFC00BAB64C /* Galactic_LettersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA2EB2F201C2AFC00BAB64C /* Galactic_LettersUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDA2EB21201C2AFC00BAB64C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDA2EAF9201C2AFC00BAB64C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDA2EB00201C2AFC00BAB64C;
+			remoteInfo = "Galactic Letters";
+		};
+		BDA2EB2C201C2AFC00BAB64C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDA2EAF9201C2AFC00BAB64C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDA2EB00201C2AFC00BAB64C;
+			remoteInfo = "Galactic Letters";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDA2EB01201C2AFC00BAB64C /* Galactic Letters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Galactic Letters.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA2EB04201C2AFC00BAB64C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BDA2EB05201C2AFC00BAB64C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BDA2EB07201C2AFC00BAB64C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		BDA2EB09201C2AFC00BAB64C /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		BDA2EB0B201C2AFC00BAB64C /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		BDA2EB0C201C2AFC00BAB64C /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		BDA2EB0E201C2AFC00BAB64C /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		BDA2EB0F201C2AFC00BAB64C /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		BDA2EB12201C2AFC00BAB64C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDA2EB14201C2AFC00BAB64C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDA2EB17201C2AFC00BAB64C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDA2EB19201C2AFC00BAB64C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDA2EB1A201C2AFC00BAB64C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDA2EB20201C2AFC00BAB64C /* Galactic LettersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Galactic LettersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA2EB24201C2AFC00BAB64C /* Galactic_LettersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Galactic_LettersTests.m; sourceTree = "<group>"; };
+		BDA2EB26201C2AFC00BAB64C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDA2EB2B201C2AFC00BAB64C /* Galactic LettersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Galactic LettersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA2EB2F201C2AFC00BAB64C /* Galactic_LettersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Galactic_LettersUITests.m; sourceTree = "<group>"; };
+		BDA2EB31201C2AFC00BAB64C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDA2EAFE201C2AFC00BAB64C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA2EB1D201C2AFC00BAB64C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA2EB28201C2AFC00BAB64C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDA2EAF8201C2AFC00BAB64C = {
+			isa = PBXGroup;
+			children = (
+				BDA2EB03201C2AFC00BAB64C /* Galactic Letters */,
+				BDA2EB23201C2AFC00BAB64C /* Galactic LettersTests */,
+				BDA2EB2E201C2AFC00BAB64C /* Galactic LettersUITests */,
+				BDA2EB02201C2AFC00BAB64C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDA2EB02201C2AFC00BAB64C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDA2EB01201C2AFC00BAB64C /* Galactic Letters.app */,
+				BDA2EB20201C2AFC00BAB64C /* Galactic LettersTests.xctest */,
+				BDA2EB2B201C2AFC00BAB64C /* Galactic LettersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDA2EB03201C2AFC00BAB64C /* Galactic Letters */ = {
+			isa = PBXGroup;
+			children = (
+				BDA2EB04201C2AFC00BAB64C /* AppDelegate.h */,
+				BDA2EB05201C2AFC00BAB64C /* AppDelegate.m */,
+				BDA2EB07201C2AFC00BAB64C /* GameScene.sks */,
+				BDA2EB09201C2AFC00BAB64C /* Actions.sks */,
+				BDA2EB0B201C2AFC00BAB64C /* GameScene.h */,
+				BDA2EB0C201C2AFC00BAB64C /* GameScene.m */,
+				BDA2EB0E201C2AFC00BAB64C /* GameViewController.h */,
+				BDA2EB0F201C2AFC00BAB64C /* GameViewController.m */,
+				BDA2EB11201C2AFC00BAB64C /* Main.storyboard */,
+				BDA2EB14201C2AFC00BAB64C /* Assets.xcassets */,
+				BDA2EB16201C2AFC00BAB64C /* LaunchScreen.storyboard */,
+				BDA2EB19201C2AFC00BAB64C /* Info.plist */,
+				BDA2EB1A201C2AFC00BAB64C /* main.m */,
+			);
+			path = "Galactic Letters";
+			sourceTree = "<group>";
+		};
+		BDA2EB23201C2AFC00BAB64C /* Galactic LettersTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDA2EB24201C2AFC00BAB64C /* Galactic_LettersTests.m */,
+				BDA2EB26201C2AFC00BAB64C /* Info.plist */,
+			);
+			path = "Galactic LettersTests";
+			sourceTree = "<group>";
+		};
+		BDA2EB2E201C2AFC00BAB64C /* Galactic LettersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDA2EB2F201C2AFC00BAB64C /* Galactic_LettersUITests.m */,
+				BDA2EB31201C2AFC00BAB64C /* Info.plist */,
+			);
+			path = "Galactic LettersUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDA2EB00201C2AFC00BAB64C /* Galactic Letters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDA2EB34201C2AFC00BAB64C /* Build configuration list for PBXNativeTarget "Galactic Letters" */;
+			buildPhases = (
+				BDA2EAFD201C2AFC00BAB64C /* Sources */,
+				BDA2EAFE201C2AFC00BAB64C /* Frameworks */,
+				BDA2EAFF201C2AFC00BAB64C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Galactic Letters";
+			productName = "Galactic Letters";
+			productReference = BDA2EB01201C2AFC00BAB64C /* Galactic Letters.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDA2EB1F201C2AFC00BAB64C /* Galactic LettersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDA2EB37201C2AFC00BAB64C /* Build configuration list for PBXNativeTarget "Galactic LettersTests" */;
+			buildPhases = (
+				BDA2EB1C201C2AFC00BAB64C /* Sources */,
+				BDA2EB1D201C2AFC00BAB64C /* Frameworks */,
+				BDA2EB1E201C2AFC00BAB64C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDA2EB22201C2AFC00BAB64C /* PBXTargetDependency */,
+			);
+			name = "Galactic LettersTests";
+			productName = "Galactic LettersTests";
+			productReference = BDA2EB20201C2AFC00BAB64C /* Galactic LettersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDA2EB2A201C2AFC00BAB64C /* Galactic LettersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDA2EB3A201C2AFC00BAB64C /* Build configuration list for PBXNativeTarget "Galactic LettersUITests" */;
+			buildPhases = (
+				BDA2EB27201C2AFC00BAB64C /* Sources */,
+				BDA2EB28201C2AFC00BAB64C /* Frameworks */,
+				BDA2EB29201C2AFC00BAB64C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDA2EB2D201C2AFC00BAB64C /* PBXTargetDependency */,
+			);
+			name = "Galactic LettersUITests";
+			productName = "Galactic LettersUITests";
+			productReference = BDA2EB2B201C2AFC00BAB64C /* Galactic LettersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDA2EAF9201C2AFC00BAB64C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Aleksander Makedonski";
+				TargetAttributes = {
+					BDA2EB00201C2AFC00BAB64C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					BDA2EB1F201C2AFC00BAB64C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BDA2EB00201C2AFC00BAB64C;
+					};
+					BDA2EB2A201C2AFC00BAB64C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BDA2EB00201C2AFC00BAB64C;
+					};
+				};
+			};
+			buildConfigurationList = BDA2EAFC201C2AFC00BAB64C /* Build configuration list for PBXProject "Galactic Letters" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDA2EAF8201C2AFC00BAB64C;
+			productRefGroup = BDA2EB02201C2AFC00BAB64C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDA2EB00201C2AFC00BAB64C /* Galactic Letters */,
+				BDA2EB1F201C2AFC00BAB64C /* Galactic LettersTests */,
+				BDA2EB2A201C2AFC00BAB64C /* Galactic LettersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDA2EAFF201C2AFC00BAB64C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA2EB13201C2AFC00BAB64C /* Main.storyboard in Resources */,
+				BDA2EB08201C2AFC00BAB64C /* GameScene.sks in Resources */,
+				BDA2EB15201C2AFC00BAB64C /* Assets.xcassets in Resources */,
+				BDA2EB18201C2AFC00BAB64C /* LaunchScreen.storyboard in Resources */,
+				BDA2EB0A201C2AFC00BAB64C /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA2EB1E201C2AFC00BAB64C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA2EB29201C2AFC00BAB64C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDA2EAFD201C2AFC00BAB64C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA2EB0D201C2AFC00BAB64C /* GameScene.m in Sources */,
+				BDA2EB10201C2AFC00BAB64C /* GameViewController.m in Sources */,
+				BDA2EB1B201C2AFC00BAB64C /* main.m in Sources */,
+				BDA2EB06201C2AFC00BAB64C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA2EB1C201C2AFC00BAB64C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA2EB25201C2AFC00BAB64C /* Galactic_LettersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA2EB27201C2AFC00BAB64C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA2EB30201C2AFC00BAB64C /* Galactic_LettersUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDA2EB22201C2AFC00BAB64C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDA2EB00201C2AFC00BAB64C /* Galactic Letters */;
+			targetProxy = BDA2EB21201C2AFC00BAB64C /* PBXContainerItemProxy */;
+		};
+		BDA2EB2D201C2AFC00BAB64C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDA2EB00201C2AFC00BAB64C /* Galactic Letters */;
+			targetProxy = BDA2EB2C201C2AFC00BAB64C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDA2EB11201C2AFC00BAB64C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDA2EB12201C2AFC00BAB64C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDA2EB16201C2AFC00BAB64C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDA2EB17201C2AFC00BAB64C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDA2EB32201C2AFC00BAB64C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BDA2EB33201C2AFC00BAB64C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDA2EB35201C2AFC00BAB64C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Galactic Letters/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ChangzhouPanda.Galactic-Letters";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDA2EB36201C2AFC00BAB64C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Galactic Letters/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ChangzhouPanda.Galactic-Letters";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDA2EB38201C2AFC00BAB64C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Galactic LettersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ChangzhouPanda.Galactic-LettersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Galactic Letters.app/Galactic Letters";
+			};
+			name = Debug;
+		};
+		BDA2EB39201C2AFC00BAB64C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Galactic LettersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ChangzhouPanda.Galactic-LettersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Galactic Letters.app/Galactic Letters";
+			};
+			name = Release;
+		};
+		BDA2EB3B201C2AFC00BAB64C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Galactic LettersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ChangzhouPanda.Galactic-LettersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Galactic Letters";
+			};
+			name = Debug;
+		};
+		BDA2EB3C201C2AFC00BAB64C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Galactic LettersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ChangzhouPanda.Galactic-LettersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Galactic Letters";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDA2EAFC201C2AFC00BAB64C /* Build configuration list for PBXProject "Galactic Letters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA2EB32201C2AFC00BAB64C /* Debug */,
+				BDA2EB33201C2AFC00BAB64C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDA2EB34201C2AFC00BAB64C /* Build configuration list for PBXNativeTarget "Galactic Letters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA2EB35201C2AFC00BAB64C /* Debug */,
+				BDA2EB36201C2AFC00BAB64C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDA2EB37201C2AFC00BAB64C /* Build configuration list for PBXNativeTarget "Galactic LettersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA2EB38201C2AFC00BAB64C /* Debug */,
+				BDA2EB39201C2AFC00BAB64C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDA2EB3A201C2AFC00BAB64C /* Build configuration list for PBXNativeTarget "Galactic LettersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA2EB3B201C2AFC00BAB64C /* Debug */,
+				BDA2EB3C201C2AFC00BAB64C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDA2EAF9201C2AFC00BAB64C /* Project object */;
+}
