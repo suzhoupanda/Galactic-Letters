@@ -22,23 +22,13 @@
 int kNumberOfOnScreenDebugPoints = 5;
 int kNumberOfClouds = 9;
 
-char kNoLetterCharacterAssociatedWithPhysicsBody = '/';
 
-CGFloat kCameraYOffsetTopDownPlane = 200.0;
 
-/** Collision and Contact Bitmasks **/
-
- const UInt32 kLetterCategoryBitMask = 0;
- const UInt32 kEnemyCategoryBitMask = 1;
 
 /** Z-Positions **/
 
  CGFloat kZPositionCloud = 5;
- CGFloat kZPositionSpikeman = 6;
  CGFloat kZPositionLetter = 3;
-
- CGFloat kZPositionTopDownPlane = 3;
- CGFloat kZPositionMissileLauncher = 3;
 
 
  BOOL kDebugWordManager = YES;

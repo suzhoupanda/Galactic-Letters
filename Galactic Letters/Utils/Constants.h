@@ -24,9 +24,7 @@ extern CGFloat kDebugSpawnArea_LowerX;
 extern CGFloat kDebugSpawnArea_UpperX;
 
 extern int kNumberOfOnScreenDebugPoints;
-extern CGFloat kCameraYOffsetTopDownPlane;
 
-extern char kNoLetterCharacterAssociatedWithPhysicsBody;
 
 
 extern CGFloat kZPositionCloud;
@@ -40,7 +38,5 @@ extern int kNumberOfClouds;
 
 extern BOOL kDebugWordManager;
 
-extern const UInt32 kLetterCategoryBitMask;
-extern const UInt32 kEnemyCategoryBitMask;
 
 #endif /* Constants_h */

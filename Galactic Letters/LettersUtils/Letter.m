@@ -11,7 +11,6 @@
 #import "Letter.h"
 #import "ContactBitMasks.h"
 #import "Constants.h"
-#import <ctype.h>
 
 @interface Letter()
 
@@ -241,30 +240,7 @@ const static double recoveryTime = 0.60;
 }
 
 
-+(char)getLetterCharacterFromPhysicsBody:(SKPhysicsBody*)physicsBody{
-    
-    SKNode* node = [physicsBody node];
-    
-    if(!node){
-        return kNoLetterCharacterAssociatedWithPhysicsBody;
-    }
-    
-    
-    NSString* nodeName = node.name;
-    
-    if(!nodeName){
-        return kNoLetterCharacterAssociatedWithPhysicsBody;
-    }
-    
-    char letterChar = [nodeName characterAtIndex:nodeName.length-1];
-    
-    if(!isalpha(letterChar)){
-        return kNoLetterCharacterAssociatedWithPhysicsBody;
-    }
-    
-    return letterChar;
-    
-}
+
 
 
 -(int)pointValue{
