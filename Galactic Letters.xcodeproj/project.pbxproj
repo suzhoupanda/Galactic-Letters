@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BDA2EB06201C2AFC00BAB64C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA2EB05201C2AFC00BAB64C /* AppDelegate.m */; };
-		BDA2EB08201C2AFC00BAB64C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BDA2EB07201C2AFC00BAB64C /* GameScene.sks */; };
-		BDA2EB0A201C2AFC00BAB64C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = BDA2EB09201C2AFC00BAB64C /* Actions.sks */; };
 		BDA2EB0D201C2AFC00BAB64C /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA2EB0C201C2AFC00BAB64C /* GameScene.m */; };
 		BDA2EB10201C2AFC00BAB64C /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA2EB0F201C2AFC00BAB64C /* GameViewController.m */; };
 		BDA2EB13201C2AFC00BAB64C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA2EB11201C2AFC00BAB64C /* Main.storyboard */; };
@@ -18,6 +16,16 @@
 		BDA2EB1B201C2AFC00BAB64C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA2EB1A201C2AFC00BAB64C /* main.m */; };
 		BDA2EB25201C2AFC00BAB64C /* Galactic_LettersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA2EB24201C2AFC00BAB64C /* Galactic_LettersTests.m */; };
 		BDA2EB30201C2AFC00BAB64C /* Galactic_LettersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA2EB2F201C2AFC00BAB64C /* Galactic_LettersUITests.m */; };
+		BDA2EB3F201C2BD500BAB64C /* RandomPointGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA2EB3E201C2BD500BAB64C /* RandomPointGenerator.m */; };
+		BDA2EB42201C2BDE00BAB64C /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA2EB41201C2BDE00BAB64C /* Constants.m */; };
+		BDA2EB49201C2FEE00BAB64C /* Letter.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA2EB45201C2FED00BAB64C /* Letter.m */; };
+		BDA2EB4A201C2FEE00BAB64C /* LetterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA2EB47201C2FED00BAB64C /* LetterManager.m */; };
+		BDA2EB53201C30ED00BAB64C /* WordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA2EB4E201C30EC00BAB64C /* WordManager.m */; };
+		BDA2EB54201C30ED00BAB64C /* TargetWordArray.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA2EB4F201C30EC00BAB64C /* TargetWordArray.m */; };
+		BDA2EB62201C322200BAB64C /* HUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA2EB61201C322200BAB64C /* HUDManager.m */; };
+		BDA2EB66201C324800BAB64C /* StatTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA2EB65201C324800BAB64C /* StatTracker.m */; };
+		BDA2EB74201C361B00BAB64C /* Cloud.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA2EB73201C35E300BAB64C /* Cloud.m */; };
+		BDA2EB75201C3B5A00BAB64C /* stars.sks in Resources */ = {isa = PBXBuildFile; fileRef = BDA2EB5F201C31FD00BAB64C /* stars.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +49,6 @@
 		BDA2EB01201C2AFC00BAB64C /* Galactic Letters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Galactic Letters.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA2EB04201C2AFC00BAB64C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BDA2EB05201C2AFC00BAB64C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BDA2EB07201C2AFC00BAB64C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		BDA2EB09201C2AFC00BAB64C /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		BDA2EB0B201C2AFC00BAB64C /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
 		BDA2EB0C201C2AFC00BAB64C /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
 		BDA2EB0E201C2AFC00BAB64C /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
@@ -58,6 +64,36 @@
 		BDA2EB2B201C2AFC00BAB64C /* Galactic LettersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Galactic LettersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA2EB2F201C2AFC00BAB64C /* Galactic_LettersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Galactic_LettersUITests.m; sourceTree = "<group>"; };
 		BDA2EB31201C2AFC00BAB64C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDA2EB3D201C2BD500BAB64C /* RandomPointGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomPointGenerator.h; sourceTree = "<group>"; };
+		BDA2EB3E201C2BD500BAB64C /* RandomPointGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomPointGenerator.m; sourceTree = "<group>"; };
+		BDA2EB40201C2BDE00BAB64C /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		BDA2EB41201C2BDE00BAB64C /* Constants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		BDA2EB43201C2BE700BAB64C /* ScreenConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenConstants.h; sourceTree = "<group>"; };
+		BDA2EB44201C2FEC00BAB64C /* Letter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Letter.h; sourceTree = "<group>"; };
+		BDA2EB45201C2FED00BAB64C /* Letter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Letter.m; sourceTree = "<group>"; };
+		BDA2EB46201C2FED00BAB64C /* LetterManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LetterManager.h; sourceTree = "<group>"; };
+		BDA2EB47201C2FED00BAB64C /* LetterManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LetterManager.m; sourceTree = "<group>"; };
+		BDA2EB48201C2FED00BAB64C /* LetterDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LetterDelegate.h; sourceTree = "<group>"; };
+		BDA2EB4D201C30EC00BAB64C /* WordManagerDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordManagerDataSource.h; sourceTree = "<group>"; };
+		BDA2EB4E201C30EC00BAB64C /* WordManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordManager.m; sourceTree = "<group>"; };
+		BDA2EB4F201C30EC00BAB64C /* TargetWordArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TargetWordArray.m; sourceTree = "<group>"; };
+		BDA2EB50201C30ED00BAB64C /* TargetWordArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TargetWordArray.h; sourceTree = "<group>"; };
+		BDA2EB51201C30ED00BAB64C /* WordManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordManager.h; sourceTree = "<group>"; };
+		BDA2EB52201C30ED00BAB64C /* WordManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordManagerDelegate.h; sourceTree = "<group>"; };
+		BDA2EB55201C30FE00BAB64C /* WordManagerDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordManagerDataSource.h; sourceTree = "<group>"; };
+		BDA2EB56201C30FE00BAB64C /* WordManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordManager.m; sourceTree = "<group>"; };
+		BDA2EB57201C30FE00BAB64C /* TargetWordArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TargetWordArray.m; sourceTree = "<group>"; };
+		BDA2EB58201C30FE00BAB64C /* TargetWordArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TargetWordArray.h; sourceTree = "<group>"; };
+		BDA2EB59201C30FE00BAB64C /* WordManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordManager.h; sourceTree = "<group>"; };
+		BDA2EB5A201C30FF00BAB64C /* WordManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordManagerDelegate.h; sourceTree = "<group>"; };
+		BDA2EB5F201C31FD00BAB64C /* stars.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = stars.sks; sourceTree = "<group>"; };
+		BDA2EB60201C322200BAB64C /* HUDManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUDManager.h; sourceTree = "<group>"; };
+		BDA2EB61201C322200BAB64C /* HUDManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUDManager.m; sourceTree = "<group>"; };
+		BDA2EB64201C324800BAB64C /* StatTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatTracker.h; sourceTree = "<group>"; };
+		BDA2EB65201C324800BAB64C /* StatTracker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatTracker.m; sourceTree = "<group>"; };
+		BDA2EB71201C352700BAB64C /* ContactBitMasks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactBitMasks.h; sourceTree = "<group>"; };
+		BDA2EB72201C35E300BAB64C /* Cloud.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cloud.h; sourceTree = "<group>"; };
+		BDA2EB73201C35E300BAB64C /* Cloud.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cloud.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,19 +144,21 @@
 		BDA2EB03201C2AFC00BAB64C /* Galactic Letters */ = {
 			isa = PBXGroup;
 			children = (
-				BDA2EB04201C2AFC00BAB64C /* AppDelegate.h */,
-				BDA2EB05201C2AFC00BAB64C /* AppDelegate.m */,
-				BDA2EB07201C2AFC00BAB64C /* GameScene.sks */,
-				BDA2EB09201C2AFC00BAB64C /* Actions.sks */,
-				BDA2EB0B201C2AFC00BAB64C /* GameScene.h */,
-				BDA2EB0C201C2AFC00BAB64C /* GameScene.m */,
-				BDA2EB0E201C2AFC00BAB64C /* GameViewController.h */,
-				BDA2EB0F201C2AFC00BAB64C /* GameViewController.m */,
-				BDA2EB11201C2AFC00BAB64C /* Main.storyboard */,
+				BDA2EB4B201C2FF900BAB64C /* LettersUtils */,
+				BDA2EB4C201C300A00BAB64C /* Utils */,
+				BDA2EB6B201C328300BAB64C /* AppDelegate */,
+				BDA2EB5D201C310600BAB64C /* DataSources */,
+				BDA2EB5E201C311B00BAB64C /* WordManager */,
+				BDA2EB63201C322600BAB64C /* HUDManager */,
+				BDA2EB6C201C329300BAB64C /* GameScene */,
+				BDA2EB6A201C327400BAB64C /* ParticleEmitters */,
+				BDA2EB69201C326700BAB64C /* Storyboards */,
+				BDA2EB68201C325B00BAB64C /* ViewControllers */,
+				BDA2EB67201C325000BAB64C /* StatTracker */,
 				BDA2EB14201C2AFC00BAB64C /* Assets.xcassets */,
-				BDA2EB16201C2AFC00BAB64C /* LaunchScreen.storyboard */,
 				BDA2EB19201C2AFC00BAB64C /* Info.plist */,
 				BDA2EB1A201C2AFC00BAB64C /* main.m */,
+				BDA2EB6E201C34B900BAB64C /* GameCharacters */,
 			);
 			path = "Galactic Letters";
 			sourceTree = "<group>";
@@ -141,6 +179,128 @@
 				BDA2EB31201C2AFC00BAB64C /* Info.plist */,
 			);
 			path = "Galactic LettersUITests";
+			sourceTree = "<group>";
+		};
+		BDA2EB4B201C2FF900BAB64C /* LettersUtils */ = {
+			isa = PBXGroup;
+			children = (
+				BDA2EB44201C2FEC00BAB64C /* Letter.h */,
+				BDA2EB45201C2FED00BAB64C /* Letter.m */,
+				BDA2EB48201C2FED00BAB64C /* LetterDelegate.h */,
+				BDA2EB46201C2FED00BAB64C /* LetterManager.h */,
+				BDA2EB47201C2FED00BAB64C /* LetterManager.m */,
+			);
+			path = LettersUtils;
+			sourceTree = "<group>";
+		};
+		BDA2EB4C201C300A00BAB64C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BDA2EB71201C352700BAB64C /* ContactBitMasks.h */,
+				BDA2EB50201C30ED00BAB64C /* TargetWordArray.h */,
+				BDA2EB4F201C30EC00BAB64C /* TargetWordArray.m */,
+				BDA2EB51201C30ED00BAB64C /* WordManager.h */,
+				BDA2EB4E201C30EC00BAB64C /* WordManager.m */,
+				BDA2EB4D201C30EC00BAB64C /* WordManagerDataSource.h */,
+				BDA2EB52201C30ED00BAB64C /* WordManagerDelegate.h */,
+				BDA2EB3D201C2BD500BAB64C /* RandomPointGenerator.h */,
+				BDA2EB3E201C2BD500BAB64C /* RandomPointGenerator.m */,
+				BDA2EB43201C2BE700BAB64C /* ScreenConstants.h */,
+				BDA2EB40201C2BDE00BAB64C /* Constants.h */,
+				BDA2EB41201C2BDE00BAB64C /* Constants.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BDA2EB5D201C310600BAB64C /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				BDA2EB58201C30FE00BAB64C /* TargetWordArray.h */,
+				BDA2EB57201C30FE00BAB64C /* TargetWordArray.m */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		BDA2EB5E201C311B00BAB64C /* WordManager */ = {
+			isa = PBXGroup;
+			children = (
+				BDA2EB55201C30FE00BAB64C /* WordManagerDataSource.h */,
+				BDA2EB5A201C30FF00BAB64C /* WordManagerDelegate.h */,
+				BDA2EB59201C30FE00BAB64C /* WordManager.h */,
+				BDA2EB56201C30FE00BAB64C /* WordManager.m */,
+			);
+			path = WordManager;
+			sourceTree = "<group>";
+		};
+		BDA2EB63201C322600BAB64C /* HUDManager */ = {
+			isa = PBXGroup;
+			children = (
+				BDA2EB60201C322200BAB64C /* HUDManager.h */,
+				BDA2EB61201C322200BAB64C /* HUDManager.m */,
+			);
+			path = HUDManager;
+			sourceTree = "<group>";
+		};
+		BDA2EB67201C325000BAB64C /* StatTracker */ = {
+			isa = PBXGroup;
+			children = (
+				BDA2EB64201C324800BAB64C /* StatTracker.h */,
+				BDA2EB65201C324800BAB64C /* StatTracker.m */,
+			);
+			path = StatTracker;
+			sourceTree = "<group>";
+		};
+		BDA2EB68201C325B00BAB64C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BDA2EB0E201C2AFC00BAB64C /* GameViewController.h */,
+				BDA2EB0F201C2AFC00BAB64C /* GameViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BDA2EB69201C326700BAB64C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BDA2EB16201C2AFC00BAB64C /* LaunchScreen.storyboard */,
+				BDA2EB11201C2AFC00BAB64C /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		BDA2EB6A201C327400BAB64C /* ParticleEmitters */ = {
+			isa = PBXGroup;
+			children = (
+				BDA2EB5F201C31FD00BAB64C /* stars.sks */,
+			);
+			path = ParticleEmitters;
+			sourceTree = "<group>";
+		};
+		BDA2EB6B201C328300BAB64C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BDA2EB04201C2AFC00BAB64C /* AppDelegate.h */,
+				BDA2EB05201C2AFC00BAB64C /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BDA2EB6C201C329300BAB64C /* GameScene */ = {
+			isa = PBXGroup;
+			children = (
+				BDA2EB0C201C2AFC00BAB64C /* GameScene.m */,
+				BDA2EB0B201C2AFC00BAB64C /* GameScene.h */,
+			);
+			path = GameScene;
+			sourceTree = "<group>";
+		};
+		BDA2EB6E201C34B900BAB64C /* GameCharacters */ = {
+			isa = PBXGroup;
+			children = (
+				BDA2EB72201C35E300BAB64C /* Cloud.h */,
+				BDA2EB73201C35E300BAB64C /* Cloud.m */,
+			);
+			path = GameCharacters;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,10 +410,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDA2EB13201C2AFC00BAB64C /* Main.storyboard in Resources */,
-				BDA2EB08201C2AFC00BAB64C /* GameScene.sks in Resources */,
+				BDA2EB75201C3B5A00BAB64C /* stars.sks in Resources */,
 				BDA2EB15201C2AFC00BAB64C /* Assets.xcassets in Resources */,
 				BDA2EB18201C2AFC00BAB64C /* LaunchScreen.storyboard in Resources */,
-				BDA2EB0A201C2AFC00BAB64C /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,10 +437,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDA2EB54201C30ED00BAB64C /* TargetWordArray.m in Sources */,
 				BDA2EB0D201C2AFC00BAB64C /* GameScene.m in Sources */,
 				BDA2EB10201C2AFC00BAB64C /* GameViewController.m in Sources */,
+				BDA2EB74201C361B00BAB64C /* Cloud.m in Sources */,
+				BDA2EB3F201C2BD500BAB64C /* RandomPointGenerator.m in Sources */,
+				BDA2EB62201C322200BAB64C /* HUDManager.m in Sources */,
+				BDA2EB53201C30ED00BAB64C /* WordManager.m in Sources */,
+				BDA2EB49201C2FEE00BAB64C /* Letter.m in Sources */,
 				BDA2EB1B201C2AFC00BAB64C /* main.m in Sources */,
+				BDA2EB4A201C2FEE00BAB64C /* LetterManager.m in Sources */,
+				BDA2EB66201C324800BAB64C /* StatTracker.m in Sources */,
 				BDA2EB06201C2AFC00BAB64C /* AppDelegate.m in Sources */,
+				BDA2EB42201C2BDE00BAB64C /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
