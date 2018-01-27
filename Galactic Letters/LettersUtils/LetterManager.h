@@ -9,7 +9,6 @@
 #ifndef LetterManager_h
 #define LetterManager_h
 
-#import "WordManagerDelegate.h"
 
 @interface LetterManager: NSObject 
 
